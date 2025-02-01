@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tablas en HTML</title>
+
+    <style>
+        table,
+        tr,
+        td {
+            border: 2px, solid, blueviolet;
+        }
+    </style>
+</head>
+
+<BOdy>
+    <h1>Tablas en HTML</h1>
+    <Table summary="Tabla que contiene datos de ejemplo para poder explicar como
+        construir tablas con el lenguaje HTML">
+        <caption>Tablas de celdas</caption>
+        <TR>
+            <th>Cabecera</Th>
+            <th>Cabecera 2</th>
+            <th>Cabecera 3</th>
+        </TR>
+        <tr>
+            <td scope="col">Celda 1, fila 1</td>
+            <td>Celda 2, fila 2</td>
+            <td>celda 3, fila 3</td>
+        </tr>
+        <tr>
+            <td>Celda 1, fila 1</td>
+            <td>Celda 2, fila 2</td>
+            <td>celda 3, fila 3</td>
+        </tr>
+        <tr>
+            <td>Celda 1, fila 1</td>
+            <td>Celda 2, fila 2</td>
+            <td>celda 3, fila 3</td>
+        </tr>
+    </Table>
+
+    <h1>Combinando Celdas</h1>
+        
+        <table summary="Ingreso de gastos">
+            <caption>Tablas de celdas</caption>
+            <tr>
+                <th colspan=""></th>
+                <th colspan="2">Enero</th>
+                <th colspan="2">Febrero</th>
+            </tr>
+            <tr>
+                <th rowspan="3">Gastos Economicos</th>
+                <td>Ingresos</td>
+                <td>Gastos</td>
+                <td>Ingresos</td>
+                <td>Gastos</td>
+            </tr>
+            <tr>
+                <td>$1000</td>
+                <td>$700</td>
+                <td>$1100</td>
+                <td>$580</td>
+            </tr>
+            <tr>
+                <td>$1800</td>
+                <td>$920</td>
+                <td>$1750</td>
+                <td>$920</td>
+            </tr>
+        </table>
+    </Table>
+</BOdy>
+
+</html>
